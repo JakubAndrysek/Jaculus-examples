@@ -1,0 +1,23 @@
+{
+    "name": "template-jaculus-robutek2",
+    "version": "0.1.0",
+    "description": "Jaculus TS template for Robutek2",
+    "type": "module",
+    "main": "./build/index.js",
+    "files": [
+        "build/**/*"
+    ],
+    "dependencies": {
+        "@types/jaculus": "0.1.0",
+        "colors": "0.1.0",
+        "robutek": "0.1.0"
+    },
+    "jaculus": {
+        "packageFormat": 1,
+        "projectType": "code",
+        "template": true,
+        "registry": [
+            "https://registry.jaculus.org/"
+        ]
+    }
+}
